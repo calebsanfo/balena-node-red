@@ -1,7 +1,7 @@
 ###
 # Build step
 ###
-FROM balenalib/raspberrypi3-debian-node:12-stretch-build as build
+FROM balenalib/raspberrypi3-debian-node:17-stretch-build as build
 
 WORKDIR /usr/src/app
 COPY ./app/package.json package.json
